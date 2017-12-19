@@ -1,0 +1,59 @@
+{
+"rating": {
+"word_results": [{
+"un_matched_phonemes": [{
+"phoneme": "L",
+"distance": 35.0,
+"mis_match_with": "EH",
+"index": 2
+}],
+"matched_phonemes": [{
+"phoneme": "HH",
+"distance": 0,
+"index": 0
+}, {
+"phoneme": "AH",
+"distance": 0,
+"index": 1
+}, {
+"phoneme": "OW",
+"distance": 0,
+"index": 3
+}],
+"word_phonemes": ["HH", "AH", "L", "OW"],
+"word_score": 85.0,
+"predicted_phonemes": ["HH", "AH", "EH", "OW"],
+"word": "hello"
+}, {
+"un_matched_phonemes": [{
+"phoneme": "W",
+"distance": 4.0,
+"mis_match_with": "HH",
+"index": 0
+}, {
+"phoneme": "ER",
+"distance": 2.0,
+"mis_match_with": "M",
+"index": 1
+}, {
+"phoneme": "L",
+"distance": 39.0,
+"mis_match_with": "",
+"index": 2
+}, {
+"phoneme": "D",
+"distance": 21.0,
+"mis_match_with": "",
+"index": 3
+}],
+"matched_phonemes": [],
+"word_phonemes": ["W", "ER", "L", "D"],
+"word_score": 29.07142857142857,
+"predicted_phonemes": ["HH", "M"],
+"word": "world"
+}],
+"total_score": 53.035714285714285
+},
+"original": "HH AH L OW W ER L D",
+"prediction": "HH AH EH OW  HH M  AA N  Y UW"
+}
